@@ -1,0 +1,14 @@
+{
+   "name": "swift-api",
+   "version": "1.0.0",
+   "description": "Simple plugin to expose an API from a swift bot.",
+   "author": "eternal",
+   "main": "src/index.js",
+   "dependencies": {
+      "node-fetch": "^2.6.0"
+   },
+   "peerDependencies": {
+      "discord.js": "discordjs/discord.js",
+      "swift": "slow/swift"
+   }
+}
